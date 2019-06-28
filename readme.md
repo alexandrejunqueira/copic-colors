@@ -1,5 +1,7 @@
 # Non-official Copic Color Library
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alexandrejunqueira/copic-colors.svg)](https://greenkeeper.io/)
+
 Array of color objects
 
 ```javascript
