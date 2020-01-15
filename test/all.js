@@ -1,7 +1,7 @@
 import test from 'ava';
 import colors from '..';
 
-test('array of color objects', t => {
+test('colors', t => {
 	t.is(colors.length, 358);
 	colors.forEach(item => {
 		t.regex(item.code, /^\w*\d+$/);

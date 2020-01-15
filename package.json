@@ -1,6 +1,6 @@
 {
 	"name": "copic-colors",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Non-official Copic Color Library",
 	"keywords": [
 		"copic",
@@ -8,7 +8,7 @@
 	],
 	"author": {
 		"name": "Alexandre Junqueira",
-		"url": "alexandrejunqueira.com",
+		"url": "https://alexandrejunqueira.com",
 		"email": "afjunqueira@gmail.com"
 	},
 	"license": "MIT",
@@ -23,12 +23,12 @@
 		"build": "node src/build"
 	},
 	"devDependencies": {
-		"async": "~2.6.1",
-		"ava": "^0.25.0",
-		"color-convert": "^1.9.1",
-		"dominant-color": "0.0.1",
-		"js-beautify": "^1.7.5",
-		"lodash": "^4.17.10",
-		"xo": "^0.21.1"
-	}
+		"ava": "^2.4.0",
+		"color-convert": "^2.0.1",
+		"colorthief": "^2.3.0",
+		"js-beautify": "^1.10.3",
+		"lodash": "^4.17.15",
+		"xo": "^0.25.3"
+	},
+	"dependencies": {}
 }
