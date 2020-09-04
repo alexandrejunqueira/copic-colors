@@ -22,9 +22,9 @@ const promises = colors.map(async color => {
 		color.rgb = dominantColorRGB;
 		color.hex = convert.rgb.hex(dominantColorRGB);
 		color.cmyk = convert.rgb.cmyk(dominantColorRGB);
-		return new Promise(resolve => resolve(color));
+		return Promise.resolve(color);
 	} catch (error) {
-		return new Promise((resolve, reject) => reject(new Error(`Error "${error.message}" in color ${color.code}`)));
+		return Promise.reject(new Error(`Error "${error.message}" in color ${color.code}`));
 	}
 });
 
