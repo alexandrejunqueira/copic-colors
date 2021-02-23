@@ -1,4 +1,4 @@
-# Non-official Copic Color Library
+# Copic Colors Library
 
 Array of color objects
 
