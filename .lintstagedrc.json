@@ -1,0 +1,4 @@
+{
+  "./src/**/*.{js,ts}": "eslint --cache --fix",
+  "./src/**/*.{js,ts}": "prettier --write"
+}
